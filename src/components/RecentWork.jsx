@@ -25,7 +25,7 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/مجلس1jpg.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/مجلس1jpg.jpg" alt="قبل 1" className="rounded-md shadow-md" />
                                 <img src="/images/مجلس2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
@@ -34,9 +34,9 @@ export default function RecentWork() {
                         <div>
                             <h4 className="text-gray-600 font-medium mb-3 text-2xl">بعد</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/مجلس 3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/مجلس 3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
                                 <img src="/images/مجلس4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
-                                <img src="public/images/مجلس 4.jpg" alt="بعد 3" className="rounded-md shadow-md" />
+                                <img src="/images/مجلس 4.jpg" alt="بعد 3" className="rounded-md shadow-md" />
                             </div>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/تكه1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="public/images/تكه2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/تكه1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/تكه2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
 
@@ -62,9 +62,9 @@ export default function RecentWork() {
                         <div>
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">بعد</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/تكه3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
-                                <img src="public/images/تكه5.jpg" alt="بعد 2" className="rounded-md shadow-md" />
-                                <img src="public/images/تكة4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
+                                <img src="/images/تكه3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/تكه5.jpg" alt="بعد 2" className="rounded-md shadow-md" />
+                                <img src="/images/تكة4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
                     </div>
@@ -79,8 +79,8 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/فيصل1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="public/images/فيصل2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/فيصل1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/فيصل2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
 
@@ -88,8 +88,8 @@ export default function RecentWork() {
                         <div>
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">بعد</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/فيصل 3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
-                                <img src="public/images/فيصل4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
+                                <img src="/images/فيصل 3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/فيصل4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
 
                             </div>
                         </div>
@@ -105,8 +105,8 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/عطارة.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="public/images/عطارة2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
 
@@ -114,11 +114,11 @@ export default function RecentWork() {
                         <div>
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">بعد</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/عطارة3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
-                                <img src="public/images/عطارة4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
-                                <img src="public/images/عطارة5.jpg" alt="بعد 1" className="rounded-md shadow-md" />
-                                <img src="public/images/عطارة6.jpg" alt="بعد 1" className="rounded-md shadow-md" />
-                                <img src="public/images/عطارة7.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة5.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة6.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                                <img src="/images/عطارة7.jpg" alt="بعد 1" className="rounded-md shadow-md" />
                             </div>
                         </div>
                     </div>
@@ -131,21 +131,21 @@ export default function RecentWork() {
                         <div className="mb-8">
 
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/اخشاب1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب6.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب10.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب11.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب12.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب13.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب15.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/اخشاب16.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب6.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب10.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب11.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب12.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب13.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب15.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/اخشاب16.jpg" alt="قبل 2" className="rounded-md shadow-md" />
 
                             </div>
                         </div>
@@ -159,14 +159,14 @@ export default function RecentWork() {
                         <div className="mb-8">
 
                             <div className="flex flex-col gap-4">
-                                <img src="public/images/ديكورات1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="public/images/ديكورات9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                                <img src="/images/ديكورات9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
                     </div>
