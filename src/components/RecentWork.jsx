@@ -79,8 +79,8 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                                <img src="/images/فيصل1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="/images/فيصل2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                              
+                                <img src="/images/فيصل5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
 

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-export default function Header({ showUs = false, showVis = false, showMis = false, showWork = false, showContact = false }) {
+export default function Header({ showUs = false, showVis = false, showMis = false, showWork = false, showContact = false, showCons = false }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -32,6 +32,7 @@ export default function Header({ showUs = false, showVis = false, showMis = fals
                 {showVis && <Link to="/vision" className="hover:text-red-600">رؤيتنا</Link>}
                 {showMis && <Link to="/mission" className="hover:text-red-600">مهمتنا</Link>}
                 {showWork && <Link to="/recent" className="hover:text-red-600">سابقة اعمالنا</Link>}
+                {showCons && <Link to="/const" className="hover:text-red-600">اعمال الانشاء</Link>}
                 {showContact && <Link to="/contact" className="hover:text-red-600">تواصل معنا</Link>}
             </div>
         </div>

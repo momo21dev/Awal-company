@@ -7,6 +7,7 @@ import Vision from './components/Vision'
 import Mission from './components/Mission'
 import RecentWork from './components/RecentWork'
 import Contact from './components/Contact'
+import Constructions from './components/Constructions'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/mission' element={<Mission />} />
         <Route path='/recent' element={<RecentWork />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/const' element={<Constructions />} />
       </Routes>
     </BrowserRouter>
   )

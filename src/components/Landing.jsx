@@ -6,7 +6,7 @@ export default function Landing() {
 
 
             {/* من نحن */}
-            <Header showContact={true} showMis={true} showUs={true} showVis={true} showWork={true} />
+            <Header showContact={true} showMis={true} showUs={true} showVis={true} showWork={true} showCons={true} />
             <div className="bg-gray-50 py-16 px-6 md:px-20" dir="rtl">
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
@@ -22,7 +22,8 @@ export default function Landing() {
                     {/* الصورة */}
                     <div className="md:w-1/2">
                         <img
-                            src="/images/اخشاب16.jpg"
+                        width={'400px'}
+                            src="/images/large-building-site.jpg"
                             alt="أعمال أخشاب"
                             className="rounded-lg shadow-lg"
                         />
