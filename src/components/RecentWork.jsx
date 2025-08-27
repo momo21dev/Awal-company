@@ -26,7 +26,7 @@ export default function RecentWork() {
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/tarabezat'}>كراسي وطاولات</Link></button>
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/iron'}>أبواب وشبابيك حديد</Link></button>
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/barkeh'}>الباركيه</Link></button>
-                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/badel'}>بديل الرخام</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/badel'}>بديل الرخام</Link></button>
 
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/abwab'}>أبواب المونيوم كيلادين</Link></button>
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/ghaza2n'}>خزائن خشبيه</Link></button>
