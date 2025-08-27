@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Header from "./Header";
 
 export default function RecentWork() {
@@ -11,6 +12,28 @@ export default function RecentWork() {
                     <h2 className="text-3xl font-extrabold text-red-700 mb-12 border-b-4 border-red-600 inline-block pb-2">
                         سابقة أعمالنا
                     </h2>
+                    <div className="grid grid-cols-4 gap-4 mb-4 ">
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"> <Link to={'/woodenkitchen'}>المطابخ الخشبيه</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/rokham'}>درج الرخام</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/wpc'}>ابواب WPC</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/wara2'}>ورق جدران 3D</Link></button>
+
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/bergola'}>برجولات خشبية</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/dehanat'}>الدهانات الحديثه</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/karanesh'}>الكرانيش</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/barawez'}>البراويز</Link></button>
+
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/tarabezat'}>كراسي وطاولات</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/iron'}>أبواب وشبابيك حديد</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/barkeh'}>الباركيه</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/badel'}>بديل الرخام</Link></button>
+
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/abwab'}>أبواب المونيوم كيلادين</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/ghaza2n'}>خزائن خشبيه</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/hanager'}>هناجر  حديد</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/maghribya'}>النقشيات الجبسية والمغربية</Link></button>
+                    </div>
+
 
                     {/* مشروع 1 */}
                     <div className="bg-white shadow-lg rounded-lg p-8 text-right mb-12">
@@ -36,7 +59,7 @@ export default function RecentWork() {
                             <div className="flex flex-col gap-4">
                                 <img src="/images/مجلس 3.jpg" alt="بعد 1" className="rounded-md shadow-md" />
                                 <img src="/images/مجلس4.jpg" alt="بعد 2" className="rounded-md shadow-md" />
-                                <img src="/images/مجلس 4.jpg" alt="بعد 3" className="rounded-md shadow-md" />
+
                             </div>
                         </div>
                     </div>
@@ -79,7 +102,7 @@ export default function RecentWork() {
                         <div className="mb-8">
                             <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
                             <div className="flex flex-col gap-4">
-                              
+
                                 <img src="/images/فيصل5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
                             </div>
                         </div>
@@ -122,54 +145,9 @@ export default function RecentWork() {
                             </div>
                         </div>
                     </div>
-                    {/* مشروع 5 */}
-                    <div className="bg-white shadow-lg rounded-lg p-8 text-right mb-12">
-                        <h3 className="text-2xl font-bold text-red-700 mb-4">شغل الأبواب والمطابخ  الأخشاب والالومنيوم الكيلادين</h3>
 
 
-                        {/* صور  */}
-                        <div className="mb-8">
 
-                            <div className="flex flex-col gap-4">
-                                <img src="/images/اخشاب1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب6.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب10.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب11.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب12.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب13.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب15.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/اخشاب16.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-
-                            </div>
-                        </div>
-                    </div>
-                     {/* مشروع 5 */}
-                    <div className="bg-white shadow-lg rounded-lg p-8 text-right mb-12">
-                        <h3 className="text-2xl font-bold text-red-700 mb-4">ديكورات بديل الشيبورد وبديل الرخام</h3>
-
-
-                        {/* صور  */}
-                        <div className="mb-8">
-
-                            <div className="flex flex-col gap-4">
-                                <img src="/images/ديكورات1.jpg" alt="قبل 1" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات2.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات3.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات4.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات5.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات7.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات8.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                                <img src="/images/ديكورات9.jpg" alt="قبل 2" className="rounded-md shadow-md" />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
         </>

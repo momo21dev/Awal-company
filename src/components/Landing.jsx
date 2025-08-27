@@ -23,7 +23,7 @@ export default function Landing() {
                     <div className="md:w-1/2">
                         <img
                         width={'400px'}
-                            src="/images/large-building-site.jpg"
+                            src="/images/elegant-rendering-interior-design.jpg"
                             alt="أعمال أخشاب"
                             className="rounded-lg shadow-lg"
                         />
