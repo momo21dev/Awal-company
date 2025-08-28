@@ -1,10 +1,21 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
-export default function Header({ showUs = false, showVis = false, showMis = false, showWork = false, showContact = false, showCons = false }) {
+export default function Header() {
+    const location = useLocation();
+
+    const links = [
+        { to: "/about", label: "من نحن" },
+        { to: "/vision", label: "رؤيتنا" },
+        { to: "/mission", label: "مهمتنا" },
+        { to: "/recent", label: "سابقة اعمالنا" },
+        { to: "/const", label: "اعمال الانشاء" },
+        { to: "/contact", label: "تواصل معنا" },
+    ];
+
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center p-4 shadow-md bg-white  z-50 gap-4" dir="rtl">
+        <div className="flex flex-col md:flex-row justify-between items-center p-4 shadow-md bg-white z-50 gap-4" dir="rtl">
 
-            {/* اللوجو + الاسم */}
+            
             <div className="flex gap-2 items-center">
                 <img
                     src="/images/WhatsApp Image 2025-08-23 at 06.13.31_762e957c.jpg"
@@ -17,38 +28,22 @@ export default function Header({ showUs = false, showVis = false, showMis = fals
                 </h1>
             </div>
 
-            {/* اللينكات - Scrollable على الموبايل */}
+           
             <div className="flex flex-row gap-3 text-gray-700 font-medium text-center overflow-x-auto md:overflow-visible w-full md:w-auto whitespace-nowrap">
-                {showUs && (
-                    <Link to="/about" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        من نحن
+                {links.map(link => (
+                    <Link
+                        key={link.to}
+                        to={link.to}
+                        className={`px-3 py-1 rounded-2xl border transition 
+                            ${
+                                location.pathname === link.to
+                                    ? "bg-red-600 text-white border-red-600"
+                                    : "border-red-600 text-red-600 hover:bg-red-600 hover:text-white"
+                            }`}
+                    >
+                        {link.label}
                     </Link>
-                )}
-                {showVis && (
-                    <Link to="/vision" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        رؤيتنا
-                    </Link>
-                )}
-                {showMis && (
-                    <Link to="/mission" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        مهمتنا
-                    </Link>
-                )}
-                {showWork && (
-                    <Link to="/recent" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        سابقة اعمالنا
-                    </Link>
-                )}
-                {showCons && (
-                    <Link to="/const" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        اعمال الانشاء
-                    </Link>
-                )}
-                {showContact && (
-                    <Link to="/contact" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
-                        تواصل معنا
-                    </Link>
-                )}
+                ))}
             </div>
         </div>
     );

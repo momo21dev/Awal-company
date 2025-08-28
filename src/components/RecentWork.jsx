@@ -6,7 +6,7 @@ export default function RecentWork() {
         <>
             <Header showContact={true} showMis={true} showUs={true} showVis={true} />
 
-            {/* سابقة أعمالنا */}
+            
             <section id="recent-work" className="bg-gray-50 py-20 px-6 md:px-20" dir="rtl">
                 <div className="max-w-5xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-red-700 mb-12 border-b-4 border-red-600 inline-block pb-2">

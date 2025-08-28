@@ -6,7 +6,7 @@ export default function Contact() {
         <>
             <Header showMis={true} showUs={true} showVis={true} showWork={true} />
 
-            {/* تواصل معنا */}
+            
             <section id="contact" className="bg-gray-50 py-20 px-6 md:px-20" dir="rtl">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-red-700 mb-8 border-b-4 border-red-600 inline-block pb-2">
@@ -16,7 +16,7 @@ export default function Contact() {
                         يسعدنا تواصلكم معنا لأي استفسار أو تعاون، هدفنا دائمًا أن نكون أقرب إليكم ونلبي احتياجاتكم بكل احترافية.
                     </p>
 
-                    {/* بيانات التواصل */}
+                   
                     <div className="text-right bg-white shadow-lg rounded-lg p-6 mb-8">
                         <h3 className="text-xl font-bold text-red-700 mb-4">معلومات التواصل</h3>
                         <p className="text-gray-700 mb-2">
@@ -30,7 +30,7 @@ export default function Contact() {
                         </p>
                     </div>
 
-                    {/* الأيقونات */}
+                   
                     <div className="flex justify-center gap-8 text-4xl text-red-600">
                         <a href="https://wa.me/966567126478" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className="hover:text-green-600 transition duration-300" />
