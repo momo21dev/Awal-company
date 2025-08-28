@@ -24,6 +24,7 @@ import Abwab from './components/Abwab'
 import Ghaza2n from './components/Ghaza2n'
 import Hanager from './components/Hanager'
 import Maghribya from './components/Maghribya'
+import Mshare3 from './components/Mshare3'
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         <Route path='/ghaza2n' element={<Ghaza2n />} />
         <Route path='/hanager' element={<Hanager />} />
         <Route path='/maghribya' element={<Maghribya />} />
+        <Route path='/mshare3' element={<Mshare3 />} />
       </Routes>
     </BrowserRouter>
   )
