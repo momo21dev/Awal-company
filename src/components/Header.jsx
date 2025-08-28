@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function Header({ showUs = false, showVis = false, showMis = false, showWork = false, showContact = false, showCons = false }) {
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center p-4 shadow-md bg-white sticky top-0 z-50 gap-4" dir="rtl">
+        <div className="flex flex-col md:flex-row justify-between items-center p-4 shadow-md bg-white  z-50 gap-4" dir="rtl">
 
             {/* اللوجو + الاسم */}
             <div className="flex gap-2 items-center">
@@ -17,8 +17,8 @@ export default function Header({ showUs = false, showVis = false, showMis = fals
                 </h1>
             </div>
 
-            {/* اللينكات */}
-            <div className="flex flex-col md:flex-row gap-3 text-gray-700 font-medium text-center overflow-x-auto md:overflow-visible">
+            {/* اللينكات - Scrollable على الموبايل */}
+            <div className="flex flex-row gap-3 text-gray-700 font-medium text-center overflow-x-auto md:overflow-visible w-full md:w-auto whitespace-nowrap">
                 {showUs && (
                     <Link to="/about" className="px-3 py-1 rounded-2xl border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition">
                         من نحن
