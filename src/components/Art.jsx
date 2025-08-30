@@ -37,7 +37,7 @@ export default function Art() {
                         <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756530391/WhatsApp_Image_2025-08-30_at_03.09.54_f80d7c6b_pdiuso.jpg" alt="ورق جدران 11" className="rounded-2xl shadow-md" />
                         <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756530387/WhatsApp_Image_2025-08-30_at_03.09.55_c3aa6e09_zf7qf8.jpg" alt="ورق جدران 11" className="rounded-2xl shadow-md" />
                         <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756530385/WhatsApp_Image_2025-08-30_at_03.09.55_6b918bd0_ollxhh.jpg" alt="ورق جدران 11" className="rounded-2xl shadow-md" />
-                        <img src="" alt="ورق جدران 11" className="rounded-2xl shadow-md" />
+                        
 
                     </div>
                 </div>
