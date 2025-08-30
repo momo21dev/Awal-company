@@ -6,7 +6,7 @@ export default function RecentWork() {
         <>
             <Header showContact={true} showMis={true} showUs={true} showVis={true} />
 
-            
+
             <section id="recent-work" className="bg-gray-50 py-20 px-6 md:px-20" dir="rtl">
                 <div className="max-w-5xl mx-auto text-center">
                     <h2 className="text-3xl font-extrabold text-red-700 mb-12 border-b-4 border-red-600 inline-block pb-2">
@@ -34,12 +34,16 @@ export default function RecentWork() {
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/maghribya'}>النقشيات الجبسية والمغربية</Link></button>
 
                     </div>
+                    <div className="flex m-4 justify-center gap-6 ">
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/art'}>رسومات جداريه</Link></button>
+                        <button className="bg-white border border-gray-300 rounded-lg py-3 px-4 shadow-sm hover:bg-red-600 transition"><Link to={'/shlalat'}>شلالات وصخور اسمنتيه</Link></button>
+                    </div>
                     <div>
                         <button className="bg-white border border-gray-300 rounded-lg py-3 px-18 shadow-sm hover:bg-red-600 transition"><Link to={'/mshare3'}>مشاريع قبل و بعد</Link></button>
                     </div>
 
 
-                   
+
 
 
 

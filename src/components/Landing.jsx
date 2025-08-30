@@ -49,9 +49,7 @@ export default function Landing() {
                         <p className="text-gray-700 mb-2">
                             <span className="font-bold">📍 العنوان:</span> الأحساء المبرز
                         </p>
-                        <p className="text-gray-700 mb-2">
-                            <span className="font-bold">📑 رقم السجل التجاري:</span> 2252107724
-                        </p>
+                       
                         <div className="flex justify-center gap-8 text-4xl text-red-600">
                             <a href="https://wa.me/966567126478" target="_blank" rel="noopener noreferrer">
                                 <FaWhatsapp className="hover:text-green-600 transition duration-300" />

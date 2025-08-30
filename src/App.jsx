@@ -25,6 +25,10 @@ import Ghaza2n from './components/Ghaza2n'
 import Hanager from './components/Hanager'
 import Maghribya from './components/Maghribya'
 import Mshare3 from './components/Mshare3'
+import Documents from './components/Documents'
+import Haikal from './components/Haikal'
+import Art from './components/Art'
+import Shlalat from './components/Shlalat'
 
 
 function App() {
@@ -55,6 +59,10 @@ function App() {
         <Route path='/hanager' element={<Hanager />} />
         <Route path='/maghribya' element={<Maghribya />} />
         <Route path='/mshare3' element={<Mshare3 />} />
+        <Route path='/docs' element={<Documents />} />
+        <Route path='/haikal' element={<Haikal />} />
+        <Route path='/art' element={<Art />} />
+        <Route path='/shlalat' element={<Shlalat />} />
       </Routes>
     </BrowserRouter>
   )

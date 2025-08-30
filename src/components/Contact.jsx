@@ -22,12 +22,8 @@ export default function Contact() {
                         <p className="text-gray-700 mb-2">
                             <span className="font-bold">📍 العنوان:</span> الأحساء المبرز
                         </p>
-                        <p className="text-gray-700 mb-2">
-                            <span className="font-bold">📑 رقم السجل التجاري:</span> 2252107724
-                        </p>
-                        <p className="text-gray-700">
-                            <span className="font-bold">📞 هاتف:</span> 966567126478+
-                        </p>
+                        
+                      
                     </div>
 
                    

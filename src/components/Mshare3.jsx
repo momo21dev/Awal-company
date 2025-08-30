@@ -122,6 +122,34 @@ export default function Mshare3() {
                     </div>
                 </div>
             </div>
+            {/* مشروع 5*/}
+            <div className="bg-white shadow-lg rounded-lg p-8 text-right mb-12">
+                <h3 className="text-2xl font-bold text-red-700 mb-4">
+                    مسجد ال مبارك
+                </h3>
+                <p className="text-gray-700 mb-6 leading-8 text-lg">
+                    تجديد وترميم مسجد ال مبارك بمنطقه الهفوف حي الروضه
+                </p>
+
+                {/* صور قبل */}
+                <div className="mb-8">
+                    <h4 className="text-gray-600 font-medium mb-3 text-xl">قبل</h4>
+                    <div className="flex flex-col gap-4">
+                        <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756531598/WhatsApp_Image_2025-08-29_at_18.00.47_6ec1c2f0_uwmnal.jpg" alt="قبل 1" className="rounded-md shadow-md" />
+                        <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756531607/WhatsApp_Image_2025-08-29_at_18.00.46_af50393f_tzriyy.jpg" alt="قبل 2" className="rounded-md shadow-md" />
+                    </div>
+                </div>
+
+                {/* صور بعد */}
+                <div>
+                    <h4 className="text-gray-600 font-medium mb-3 text-2xl">بعد</h4>
+                    <div className="flex flex-col gap-4">
+                        <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756531603/WhatsApp_Image_2025-08-29_at_18.01.11_b39d4fd7_wnamz9.jpg" alt="بعد 1" className="rounded-md shadow-md" />
+                        <img src="https://res.cloudinary.com/dr5cfk7qh/image/upload/v1756531594/WhatsApp_Image_2025-08-29_at_18.01.11_4d5bccaa_bzkbwv.jpg" alt="بعد 2" className="rounded-md shadow-md" />
+
+                    </div>
+                </div>
+            </div>
 
 
 
